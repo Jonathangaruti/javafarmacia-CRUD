@@ -17,8 +17,8 @@ public class Categoria {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 
-	@NotBlank(message = "Obrigatório mínimo 5 e no máximo 255 caracteres")
-	@Size(min = 5, max = 255)
+	@NotBlank(message = "Obrigatório mínimo 5 e no máximo 1000 caracteres")
+	@Size(min = 5, max = 1000)
 	private String descricao;
 
 	@NotBlank(message = "Obrigatório mínimo 5 e no máximo 255 caracteres")
